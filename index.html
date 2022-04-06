@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STC Weather</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./weather.css" />
+</head>
+<body>
+    <div class="container-fluid d-flex flex-wrap p-0" style="min-height: 100vh;">
+        <div class="col-lg-3">
+            <div>
+                <form class="search-location d-flex justify-content-center" action="">
+                    <input type="text" name="city" placeholder="Enter name of city" style="outline: none;" autocomplete="off" class="
+                    col-8
+                    border-top-0 border-right-0 border-left-0
+                    mt-4 p-2">
+                </form>
+                <div class="left-card">
+                    <div class="card-top text-center my-5">
+                        <div class="my-3 city-name">
+                            <p style="font-size: 2rem;">Vellore</p>
+                        </div>
+                        <img src="./assets/sunny.svg" class="card-img-top" style="max-width: 100px;" alt="">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-mid d-flex">
+                        <div class="col-7 text-center temp">
+                            <span style="font-size: rem; letter-spacing: -2px;">30&deg;C</span>
+                        </div>
+                        <div class="col-5 mt-3 condition-temp d-flex">
+                            <p class="condition">Thunderstorm</p>
+                            <p class="high">30&deg;C</p>
+                            <p class="low">27&deg;C</p>
+                        </div>
+                    </div>
+                    <div class="icon-container card shadow mx-auto my-3">
+                        <img src="./assets/cloud" alt="">
+                    </div>
+                    <div class="px-3 py-2 d-flex justify-content-center gap-2">
+                        <div class="text-center">
+                            <span>Feels Like</span>
+                            <span class="pr-2">30&deg;C</span>
+                        </div>
+                    </div>
+                    <div class="px-3 py-2 d-flex justify-content-center gap-2">
+                        <div class="text-center">
+                            <span>Humidity: </span>
+                            <span class="pr-2">55%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TASK : TO COMPLETE RIGHT SIDE OF THE WEBSITE -->
+        <div class="col-lg-9">
+            <h2 class="rightcard">3-Hourly Forecast</h2>
+      <div class="d-flex flex-wrap ">
+          <!-- WEATHER CARDS -->
+        
+        <div class="right-card d-flex col-12 col-md-4 col-xl-3 col-lg-3 flex-column align-items-center font-weight-bold bg-white p-3 m-3 ">
+          <p>Sun</p>
+          <img src="./assets/sunny.svg" class="py-4" alt="bright" />
+          <div>
+            <span>20&deg;C</span>
+            <span>10&deg;C</span>
+          </div>
+          <span>8pm</span>
+        </div>
+        <div class="right-card d-flex col-12 col-md-4 col-xl-3 col-lg-3 flex-column align-items-center font-weight-bold bg-white p-3 m-3 ">
+          <p>Sun</p>
+          <img src="./assets/sunny.svg" class="py-4" alt="bright" />
+          <div>
+            <span>20&deg;C</span>
+            <span>10&deg;C</span>
+          </div>
+          <span>8pm</span>
+        </div>
+        <div  class="right-card d-flex col-12 col-md-4 col-lg-3 flex-column align-items-center font-weight-bold bg-white p-3 m-3 ">
+            <p>Sun</p>
+            <img src="./assets/sunny.svg" class="py-4" alt="bright"  />
+            <div>
+              <span>20&deg;C</span>
+              <span>10&deg;C</span>
+            </div>
+            <span>8pm</span>
+          </div>
+          <div class="right-card d-flex col-12 col-md-4 col-lg-3 flex-column align-items-center font-weight-bold bg-white p-3 m-3">
+            <p>Sun</p>
+            <img src="./assets/sunny.svg" class="py-4" alt="bright" />
+            <div>
+              <span>20&deg;C</span>
+              <span>10&deg;C</span>
+            </div>
+            <span>8pm</span>
+          </div>
+          <div class="right-card d-flex col-12 col-md-4 col-lg-3 flex-column align-items-center font-weight-bold bg-white p-3 m-3 ">
+            <p>Sun</p>
+            <img src="./assets/sunny.svg" class="py-4" alt="bright"/>
+            <div>
+              <span>20&deg;C</span>
+              <span>10&deg;C</span>
+            </div>
+            <span>8pm</span>
+          </div>
+          <div class="right-card d-flex col-12 col-md-4 col-lg-3 flex-column align-items-center font-weight-bold bg-white p-3 m-3 ">
+            <p>Sun</p>
+            <img src="./assets/sunny.svg" class="py-4" alt="bright"/>
+            <div>
+              <span>20&deg;C</span>
+              <span>10&deg;C</span>
+            </div>
+            <span>8pm</span>
+          </div>
+          <div class="right-card d-flex col-12 col-md-4 col-lg-3 flex-column align-items-center font-weight-bold bg-white p-3 m-3 ">
+            <p>Sun</p>
+            <img src="./assets/sunny.svg" class="py-4" alt="bright" />
+            <div>
+              <span>20&deg;C</span>
+              <span>10&deg;C</span>
+            </div>
+            <span>8pm</span>
+          </div>
+
+      </div>
+      <!-- HIGHLIGHTS SECTION -->
+
+      <div class="mt-4 ">
+        <h2>Today's Highlights:</h2>
+        <div class="d-flex flex-wrap highlights">
+
+          
+          <div class="highlight-data d-flex col-12 col-md-4 col-lg-3 flex-column align-items-center font-weight-bold bg-white p-3 m-2 ">
+            <p class="py-2">Visibility</p>
+            <h2 class="py-2">10 km</h2>
+            <img class="high-img" src="./assets/binoculars.png"/>
+
+          </div>
+          <div class="highlight-data d-flex col-12 col-md-4 col-lg-3 flex-column align-items-center font-weight-bold bg-white p-3 m-2 ">
+            <p class="py-2">Pressure</p>
+            <h2 class="py-2">1012 hPa</h2>
+            <img class="high-img" src="./assets/pressure-gauge.png"/>
+
+          </div>
+          <div class="highlight-data d-flex col-12 col-md-4 col-lg-3 flex-column align-items-center font-weight-bold bg-white p-3 m-2">
+            <p class="py-2">Wind Speed</p>
+            <h2 class="py-2">4.79 km/h</h2>
+            <img class="high-img" src="./assets/windock.png" />
+
+          </div>
+          
+        </div>
+      </div>
+    
+        </div>
+
+    </div>
+</body>
+</html>
